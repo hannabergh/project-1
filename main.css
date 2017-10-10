@@ -1,0 +1,40 @@
+body {
+    background-color: #6b83b3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px
+
+}
+button {
+    background-color: transparent;
+    position: relative;
+    border: 2px solid #e0bc75;
+    color: #e0bc75;
+    margin-top: 20px;
+    padding: 9px 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Helvetica",sans-serif;
+}
+h1 {
+    color: #e0bc75;
+    font-size: 35px;
+    letter-spacing:2px;
+    font-family: "Helvetica",sans-serif;
+}
+input {
+    color: #e0bc75;
+    font-family: "Helvetica",sans-serif;
+    background-color: white;
+    position: relative;
+    border: 2px solid #e0bc75;
+    color: #e0bc75;
+    margin-top: 20px;
+    padding: 9px 18px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
