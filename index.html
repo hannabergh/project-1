@@ -7,17 +7,29 @@
 </head>
 <br>
 <body>
-  <center><h1><b>Vilket recept ska jag laga?</b></h1>
-  <img src="olsen1.gif" alt="Olsentwin eating a lot" width="200">
-  <br>
+  <center><h1><b>Vad ska jag laga till middag?</b></h1>
+  <img src="olsen1.gif" alt="Olsentwin eating a lot" width="220">
   <br>
   <div class="inputSection">
-  <div>
-    <div>
+    <div class="inputs">
       <input placeholder="Fyll i.."></input>
     </div>
-    <button>Lägg till</button>
-  </div>
+      <button class="addOption">Lägg till</button>
+    </div>
+  <div class="resultSection"></div>
   <button>Okej, välj åt mig!</button></center>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+  $(function(){
+    $('.resultSection').hide()
+
+    var add_option = function() {
+      $('.inputs').append('<input></input>')
+    }
+
+    $('.addOption').click(add_option)
+  })
+</script>
 </body>
 </html>
